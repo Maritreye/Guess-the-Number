@@ -4,10 +4,9 @@
 
 int main(){
 	int number,guess,nguesses=1;
-	srand(time(0));//helps to give different numbers after 0 second
+	srand(time(0));
 	number = rand()%100 + 1;// generates number between 1 to 100
-	//printf("The number is %d\n",number); //if you include this line than the number will be shown
-	//running loop until number is guessed
+	//printf("The number is %d\n",number); 
 	do{
 	printf("guess the number\n");
 	scanf("%d", &guess);
